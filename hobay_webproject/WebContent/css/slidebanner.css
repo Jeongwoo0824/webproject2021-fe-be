@@ -1,0 +1,53 @@
+#section input[id*='slide'] {
+    display: none;
+}
+#section .slidewrap {
+    margin: 0 auto;
+    overflow: hidden;
+}
+#section .slidelist {
+    max-width: 1920px;
+    margin-top: 75px;
+    white-space: nowrap;
+    font-size: 0;
+}
+#section .slidelist > li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all 1s;
+}
+#section .slidelist > li > a {
+    display: block;
+    position: relative;
+}
+#section .slidelist > li > a > img {
+    height: 700px;
+    width: 100%;
+}
+#section .slidelist label {
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    padding: 50px;
+    cursor: pointer;
+}
+#section .slidelist .left {
+    left: 30px;
+    top: 30%;
+    background: url('../image/left-arrow.png') center center / 50% no-repeat;
+}
+#section .slidelist .right {
+    right: 30px;
+    top: 30%;
+    background: url('../image/right-arrow.png') center center / 50% no-repeat;
+}
+#section [id='slide01']:checked ~ .slidewrap .slidelist > li {
+    transform: translateX(0%);
+}
+#section [id='slide02']:checked ~ .slidewrap .slidelist > li {
+    transform: translateX(-100%);
+}
+#section [id='slide03']:checked ~ .slidewrap .slidelist > li {
+    transform: translateX(-200%);
+}

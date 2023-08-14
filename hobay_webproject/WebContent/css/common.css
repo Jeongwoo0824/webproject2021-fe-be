@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@100;300&display=swap');
+* {
+    font-family: 'Noto Sans KR', 'Nanum Barun Gothic', 'Nanum Gothic', 'Malgun Gothic', 'Dotum', 'AppleGothic', sans-serif;
+}
+@font-face {
+    font-family: 'TITLE';
+    src: url('../font/AmaticSC-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MENU';
+    src: url('../teamproject/font/josun.TTF') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.img {
+    position: relative;
+}
+.listyle {
+    display: inline-block;
+    padding: 10px 7px;
+}
+input {
+    cursor: pointer;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h2,
+p {
+    color: #383838;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.footerhr {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 0;
+    border-bottom: 1px solid #383838;
+}
+.mainlogo {
+    position: relative;
+    bottom: 14px;
+    left: 200px;
+    font-family: 'TITLE';
+    font-size: 50px;
+}
+#mainmenu {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0 auto;
+    width: 1920px;
+    height: 55px;
+    padding-top: 20px;
+}
+#mainmenu > a {
+    float: left;
+}
+#mainmenu .menu {
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 17%;
+}
+#mainmenu .menu > li {
+    text-align: center;
+    float: left;
+    display: block;
+    position: relative;
+    width: 130px;
+    padding-top: 10px;
+}
+#mainmenu .menu .sub {
+    background-color: rgb(255, 255, 255, 0.5);
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    z-index: 1;
+}
+#mainmenu .menu > li:hover .sub {
+    display: block;
+}
+#mainmenu .menu .sub li:hover {
+    background-color: rgb(200, 200, 200, 0.5);
+}
+#mainmenu .menu li > a {
+    display: block;
+    padding: 26px 0;
+}
+#mainmenu .menu .sub li > a {
+    display: block;
+    padding: 10px 0;
+}
+
+#subbanner {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+#subbanner hr {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    border-top: 0;
+    border-bottom: 1px solid #383838;
+}
+#subbanner h2 {
+    font-size: 40px;
+}
+#subbanner p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+#subbanner img {
+    width: 1920px;
+    height: 500px;
+}
+#subbanner .inimg {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+}
+
+#titletext {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#titletext hr {
+    margin-top: 10px;
+    border-top: 0;
+    border-bottom: 1px solid #383838;
+}
+#titletext h2 {
+    font-size: 32px;
+}
+#indexbutton {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+#indexbutton input {
+    width: 75px;
+    height: 35px;
+    background-color: #0f4c81;
+    font-size: 12px;
+    color: #e7e7e7;
+    border-radius: 9px;
+}
+#footer {
+    height: 200px;
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color: antiquewhite;
+}
+#footer .logo {
+    font-family: 'TITLE';
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: 80px;
+}
+#footer .copyright {
+    font-size: 12px;
+}

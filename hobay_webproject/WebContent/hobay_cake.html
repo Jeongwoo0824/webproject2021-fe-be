@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HOSEO BAYKERY</title>
+        <link rel="stylesheet" type="text/css" href="css/common.css?ver=1" />
+        <link rel="stylesheet" type="text/css" href="css/menu.css?ver=1" />
+        <script>
+            function showhide(number) {
+                if (document.getElementById('detail' + number).style.display == 'none') {
+                    document.getElementById('detail' + number).style.display = 'block';
+                } else {
+                    document.getElementById('detail' + number).style.display = 'none';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="mainmenu">
+            <a href="hobay_main.html">
+                <span class="mainlogo">Hoseo Bakery</span>
+            </a>
+            <ul class="menu">
+                <li>
+                    <a href="hobay_cake.html">메뉴소개</a>
+                    <ul class="sub">
+                        <li><a href="hobay_drink.html">음료</a></li>
+                        <li><a href="#">케이크</a></li> <!-- 단순 반복 코드 -->
+                        <li><a href="#">빵</a></li> <!-- 단순 반복 코드 -->
+                    </ul>
+                </li>
+                <li>
+                    <a href="hobay_event.html">이벤트</a>
+                </li>
+                <li>
+                    <a href="hobay_membership.html">멤버십</a>
+                </li>
+                <li>
+                    <a href="hobay_way.html">오시는길</a>
+                </li>
+                <li>
+                    <a href="jsp/list.jsp">QnA</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="caketop">
+            <a href="hobay_cake.html"><img src="image/mainbanner_sample2.png" /></a>
+        </div>
+
+        <div id="cakemenu">
+            <table>
+                <td><a href="hobay_drink.html">음료</a></td>
+                <td><a href="#">케이크</a></td> <!-- 단순 반복 코드 -->
+                <td><a href="#">빵</a></td> <!-- 단순 반복 코드 -->
+            </table>
+        </div>
+
+        <div id="cakemiddle">
+            <h1>추천 메뉴</h1>
+            <hr />
+            <ul>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(100)"
+                            ><img width="280" height="280" src="image/shaved/4strwaberryshaved2.jpg" />
+                            <div class="middlebuilt">
+                                <h2>딸기 빙수</h2>
+                            </div>
+                        </a>
+                        <div class="detailbase" id="detail100" style="display: none">
+                            <div class="detailtop">
+                                <h2>딸기 빙수</h2>
+                                <hr />
+                                <span>새콤달콤한 딸기와 부드러운 아이스크림을 얹은 빙수 </span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(100)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 920kcal</td>
+                                        <td>당류 : 113g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 183mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(101)"
+                            ><img width="280" height="280" src="image/shaved/3mangoshaved.jpg" />
+                            <div class="middlebuilt">
+                                <h2>망고 빙수</h2>
+                            </div>
+                        </a>
+                        <div class="detailbase" id="detail101" style="display: none">
+                            <div class="detailtop">
+                                <h2>망고 빙수</h2>
+                                <hr />
+                                <span>열대과일 망고와 크림치즈가 올라간 빙수 </span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(101)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 678kcal</td>
+                                        <td>당류 : 112g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 188mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(102)"
+                            ><img width="280" height="280" src="image/shaved/2injeolmishaved.jpg" />
+                            <div class="middlebuilt">
+                                <h2>인절미 빙수</h2>
+                            </div>
+                        </a>
+                        <div class="detailbase" id="detail102" style="display: none">
+                            <div class="detailtop">
+                                <h2>인절미 빙수</h2>
+                                <hr />
+                                <span>짙은 고소함과 달큰한 팥이 어우러진 빙수 </span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(102)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 821kcal</td>
+                                        <td>당류 : 113g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 188mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="cakebottom">
+            <h1>전체 메뉴</h1>
+            <hr />
+            <ul>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(1)"><img width="220" height="220" src="image/drink/8coldbrew.jpg" /></a>
+                        <div class="detailbase" id="detail1" style="display: none">
+                            <div class="detailtop">
+                                <h2>콜드브루</h2>
+                                <hr />
+                                <span>콜드 브루 전용 원두를 차가운 물로 14시간 동안 추출하여 한정된 양만 제공됩니다. </span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(1)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 2kcal</td>
+                                        <td>당류 : 0g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 1mg</td>
+                                        <td>카페인 : 120mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>콜드브루</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(2)"><img width="220" height="220" src="image/drink/9espressosmoothie.jpg" /></a>
+                        <div class="detailbase" id="detail2" style="display: none">
+                            <div class="detailtop">
+                                <h2>카페 라떼</h2>
+                                <hr />
+                                <span>풍부하고 진한 에스프레소가 신선한 밀크를 만나 부드러워진 커피 위에 우유 거품을 얹은 커피 라떼</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(2)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 200kcal</td>
+                                        <td>당류 : 13g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 122mg</td>
+                                        <td>카페인 : 45mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>카페 라떼</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(3)"><img width="220" height="220" src="image/drink/10milklatte.jpg" /></a>
+                        <div class="detailbase" id="detail3" style="display: none">
+                            <div class="detailtop">
+                                <h2>유기농 밀크 라떼</h2>
+                                <hr />
+                                <span>깊고 진한 우유 본연의 맛과 향을 부드럽게 즐길 수 있는 유기농 우유로 만든 라떼</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(3)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 182kcal</td>
+                                        <td>당류 : 10g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 130mg</td>
+                                        <td>카페인 : 32mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>유기농 밀크 라떼</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(4)"><img width="220" height="220" src="image/drink/7mugwortlatte.jpg" /></a>
+                        <div class="detailbase" id="detail4" style="display: none">
+                            <div class="detailtop">
+                                <h2>쑥 라떼</h2>
+                                <hr />
+                                <span>쑥만의 독특한 향과 부드러운 우유로 만든 쑥 라떼</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(4)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 200kcal</td>
+                                        <td>당류 : 30g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 145mg</td>
+                                        <td>카페인 : 12mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>쑥 라떼</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(5)"><img width="220" height="220" src="image/drink/2strwaberrysmoothie2.jpg" /></a>
+                        <div class="detailbase" id="detail5" style="display: none">
+                            <div class="detailtop">
+                                <h2>딸기바나나 스무디</h2>
+                                <hr />
+                                <span>부드러운 바나나와 상큼한 딸기가 시원하게 블렌딩 된 스무디</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(5)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 290kcal</td>
+                                        <td>당류 : 51g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 65mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>딸기바나나 스무디</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(6)"><img width="220" height="220" src="image/drink/1strawberrysmoothie.jpg" /></a>
+                        <div class="detailbase" id="detail6" style="display: none">
+                            <div class="detailtop">
+                                <h2>딸기 스무디</h2>
+                                <hr />
+                                <span>싱그러운 딸기향 상큼하고 달콤한 딸기맛 스무디</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(6)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 285kcal</td>
+                                        <td>당류 : 66g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 45mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>딸기 스무디</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(7)"><img width="220" height="220" src="image/drink/2milksmoothie.jpg" /></a>
+                        <div class="detailbase" id="detail7" style="display: none">
+                            <div class="detailtop">
+                                <h2>우유 스무디</h2>
+                                <hr />
+                                <span>부드러운 우유가 블렌딩 된 스무디</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(7)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 230kcal</td>
+                                        <td>당류 : 66g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 25mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>우유 스무디</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(8)"><img width="220" height="220" src="image/drink/3cottonsmoothie.jpg" /></a>
+                        <div class="detailbase" id="detail8" style="display: none">
+                            <div class="detailtop">
+                                <h2>솜사탕 스무디</h2>
+                                <hr />
+                                <span>몽글몽글한 솜사탕 맛 스무디 위에 코튼캔디 맛 구슬아이스크림이 올라간 스무디</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(8)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 292kcal</td>
+                                        <td>당류 : 52g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 102mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>솜사탕 스무디</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(9)"><img width="220" height="220" src="image/drink/4mangosmoothie.jpg" /></a>
+                        <div class="detailbase" id="detail9" style="display: none">
+                            <div class="detailtop">
+                                <h2>망고 스무디</h2>
+                                <hr />
+                                <span>열대지방 망고의 부드러움과 달콤함을 담은 망고맛 스무디</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(9)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 235kcal</td>
+                                        <td>당류 : 53g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 25mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>망고 스무디</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(10)"><img width="220" height="220" src="image/drink/5melonsmoothie.jpg" /></a>
+                        <div class="detailbase" id="detail10" style="display: none">
+                            <div class="detailtop">
+                                <h2>메론 스무디</h2>
+                                <hr />
+                                <span>달콤한 메론이 블렌딩 되어 들어간 스무디</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(10)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 440kcal</td>
+                                        <td>당류 : 82g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 33mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>메론 스무디</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(11)"><img width="220" height="220" src="image/drink/6pinevitasmoodie.jpg" /></a>
+                        <div class="detailbase" id="detail11" style="display: none">
+                            <div class="detailtop">
+                                <h2>파인비타 스무디</h2>
+                                <hr />
+                                <span>상큼한 파인애플맛 스무디에 비타민 B2, B6, C가 듬뿍! </span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(11)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 220kcal</td>
+                                        <td>당류 : 52g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 5mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>파인비타 스무디</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(12)"><img width="220" height="220" src="image/drink/6lemonicetea.jpg" /></a>
+                        <div class="detailbase" id="detail12" style="display: none">
+                            <div class="detailtop">
+                                <h2>레몬 아이스티</h2>
+                                <hr />
+                                <span>상큼한 레몬향이 가득한 아이스티</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(12)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 82kcal</td>
+                                        <td>당류 : 20g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 5mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>레몬 아이스티</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(13)"><img width="220" height="220" src="image/drink/11chocolatte.jpg" /></a>
+                        <div class="detailbase" id="detail13" style="display: none">
+                            <div class="detailtop">
+                                <h2>초코 라떼</h2>
+                                <hr />
+                                <span>우유와 함께 즐기는 쌉싸름하고 진한 초콜 라떼</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(13)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 286</td>
+                                        <td>당류 : 11g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 130mg</td>
+                                        <td>카페인 : 10g</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>초코 라떼</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(14)"><img width="220" height="220" src="image/bread/1greenteamacaron.jpg" /></a>
+                        <div class="detailbase" id="detail14" style="display: none">
+                            <div class="detailtop">
+                                <h2>녹차 마카롱</h2>
+                                <hr />
+                                <span>매니아층이 두터운 녹차만의 특유한 향이 느껴지는 마카롱</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(14)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 : 110kcal</td>
+                                        <td>당류 : 8g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 5mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>녹차 마카롱</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(15)"><img width="220" height="220" src="image/bread/2strawberrymacaron.jpg" /></a>
+                        <div class="detailbase" id="detail15" style="display: none">
+                            <div class="detailtop">
+                                <h2>딸기 마카롱</h2>
+                                <hr />
+                                <span>상큼한 딸기 맛이 느껴지는 부드럽고 달콤한 마카롱</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(15)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :120kcal</td>
+                                        <td>당류 : 8g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 7mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>딸기 마카롱</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(16)"><img width="220" height="220" src="image/bread/3blueberrymacaron.jpg" /></a>
+                        <div class="detailbase" id="detail15" style="display: none">
+                            <div class="detailtop">
+                                <h2>블루베리 마카롱</h2>
+                                <hr />
+                                <span>달콤새콤한 블루베리 향이 가득한 마카롱</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(15)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :100kcal</td>
+                                        <td>당류 : 10g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 5mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>블루베리 마카롱</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(17)"><img width="220" height="220" src="image/bread/4chocomacaron.jpg" /></a>
+                        <div class="detailbase" id="detail17" style="display: none">
+                            <div class="detailtop">
+                                <h2>초코 마카롱</h2>
+                                <hr />
+                                <span>달콤 쌉사름한 가나 초콜릿이 들어간 마카롱</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(17)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :130kcal</td>
+                                        <td>당류 : 10g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 3mg</td>
+                                        <td>카페인 : 0.2mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>초코 마카롱</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(18)"><img width="220" height="220" src="image/bread/8plainbagle.jpg" /></a>
+                        <div class="detailbase" id="detail18" style="display: none">
+                            <div class="detailtop">
+                                <h2>플레인 베이글</h2>
+                                <hr />
+                                <span>누구나 부담없이 먹을 수 있는 플레인 베이글</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(18)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :102kcal</td>
+                                        <td>당류 : 5g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 5mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>플레인 베이글</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(19)"><img width="220" height="220" src="image/bread/7anionbagle.jpg" /></a>
+                        <div class="detailbase" id="detail19" style="display: none">
+                            <div class="detailtop">
+                                <h2>어니언 베이글</h2>
+                                <hr />
+                                <span>한 번 중독되면 빠져나올 수 없는 양파맛이 들어간 베이글</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(19)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :121kcal</td>
+                                        <td>당류 : 7g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 3mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>어니언 베이글</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(20)"><img width="220" height="220" src="image/cake/1strawberrycake.jpg " /></a>
+                        <div class="detailbase" id="detail20" style="display: none">
+                            <div class="detailtop">
+                                <h2>딸기 케이크</h2>
+                                <hr />
+                                <span>폭신폭신한 부드러운 시트사이 상큼한 딸기콩프트와 진한우유크림이 어우러진 케이크</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(20)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :1521kcal</td>
+                                        <td>당류 : 66g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 360mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>딸기 케이크</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(21)"><img width="220" height="220" src="image/cake/2chococake.jpg" /></a>
+                        <div class="detailbase" id="detail21" style="display: none">
+                            <div class="detailtop">
+                                <h2>초코 케이크</h2>
+                                <hr />
+                                <span>초코스폰지에 초코크림이 어우러진 달콤한 초코케이크</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(21)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :1221kcal</td>
+                                        <td>당류 : 132g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 422mg</td>
+                                        <td>카페인 : 1mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>초코 케이크</p>
+                </li>
+                <li class="listyle">
+                    <div class="img">
+                        <a href="javascript:showhide(22)"><img width="220" height="220" src="image/cake/3cheezecake.jpg" /></a>
+                        <div class="detailbase" id="detail22" style="display: none">
+                            <div class="detailtop">
+                                <h2>치즈 케이크</h2>
+                                <hr />
+                                <span>필라델피아크림 치즈와 끼리 치즈가 어우러진 치즈케이크</span>
+                                <div class="closecon">
+                                    <a href="javascript:showhide(22)"><img width="15" height="15" src="image/close.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="detailbottom">
+                                <p>주요 성분</p>
+                                <hr />
+                                <table>
+                                    <tr>
+                                        <td>칼로리 :1332kcal</td>
+                                        <td>당류 : 72g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>나트륨 : 620mg</td>
+                                        <td>카페인 : 0mg</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <p>치즈 케이크</p>
+                </li>
+            </ul>
+        </div>
+        <div id="footer">
+            <p class="logo">hoseo bakery</p>
+            <span>충청남도 아산시 배방읍 세출리 225-4 HOBAY, 아산호서대점</span>
+            <span>041-540-5114</span>
+            <p class="copyright">&copy; 2021 HOSEO BAKERY COMPANY. ALL RIGHTS RESERVED..</p>
+        </div>
+    </body>
+</html>

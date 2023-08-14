@@ -1,0 +1,20 @@
+td,
+tr,
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tablestyle {
+    width: 1200px;
+    border: 1px solid #9c9c9e;
+    margin: 0 auto;
+}
+.tablestyle input {
+    width: 75px;
+    height: 35px;
+    background-color: #0f4c81;
+    font-size: 12px;
+    color: #e7e7e7;
+    border-radius: 9px;
+}

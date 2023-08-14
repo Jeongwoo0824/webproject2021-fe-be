@@ -1,0 +1,34 @@
+.hrstyle {
+    border-top: 1px;
+}
+#mainmiddle {
+    padding: 25px 0;
+    text-align: center;
+}
+#mainmiddle .middlebuilt {
+    text-align: center;
+    position: absolute;
+    width: 250px;
+    right: 60px;
+    bottom: 0;
+    padding: 20px 15px;
+}
+#mainmiddle .middlebuilt span {
+    position: relative;
+    top: 20px;
+}
+#mainbottom {
+    text-align: center;
+    padding: 25px 0;
+}
+#mainbottom > h1 {
+    font-family: 'TITLE';
+    font-size: 65px;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: left;
+    padding: 5px 10px;
+}
+#mainbottom .listyle {
+    padding: 10px 0;
+}

@@ -1,0 +1,143 @@
+h2,
+h1,
+p {
+    color: #383838;
+}
+hr {
+    width: 120px;
+    text-align: left;
+    border-top: 0;
+}
+#caketop {
+    margin-top: 75px;
+    text-align: center;
+}
+#caketop img {
+    width: 100%;
+}
+#caketop .topbuilt {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    text-align: center;
+}
+#caketop .topbuilt .logo {
+    font-weight: bold;
+}
+#cakemenu table {
+    font-size: 18px;
+    width: 1200px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#cakemenu table td {
+    border-top: 1px solid #98989e;
+    border-bottom: 1px solid #98989e;
+    width: 400px;
+}
+#cakemenu table td > a {
+    padding: 12px 0;
+    display: block;
+}
+#cakemenu table td > a:hover {
+    background-color: #cfcfcf;
+    border-bottom: 1px solid #df1833;
+}
+#cakemiddle {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#cakemiddle > h1 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#cakemiddle .middlebuilt {
+    position: absolute;
+    width: 250px;
+    top: 0;
+    text-align: left;
+    padding: 20px 15px;
+    writing-mode: tb;
+}
+#cakemiddle .listyle {
+    margin-left: 50px;
+}
+#cakemiddle h2 {
+    font-size: 19px;
+}
+#cakebottom {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#cakebottom > h1 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#cakebottom p {
+    padding: 0 7px;
+    font-size: 18px;
+}
+.detailbase {
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 98%;
+    width: 100%;
+    position: absolute;
+}
+.detailbase hr {
+    width: 90%;
+    margin: 0 auto;
+}
+.detailbase .detailtop {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+    width: 75%;
+    display: block;
+}
+.detailbase .detailtop h2 {
+    margin-left: 6px;
+    font-size: 22px;
+}
+.detailbase .detailtop span {
+    font-size: 12px;
+}
+.detailbase .detailbottom {
+    position: absolute;
+    word-break: break-all;
+    right: 20px;
+    top: 55%;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+}
+.detailbase .detailtop .closecon {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 10px;
+}
+.detailbase .detailbottom p {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.detailbase .detailbottom table {
+    position: absolute;
+    margin: 0 auto;
+}
+.detailbase .detailbottom td {
+    color: #383838;
+    font-size: 12px;
+}

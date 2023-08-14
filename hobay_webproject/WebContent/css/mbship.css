@@ -1,0 +1,46 @@
+#mbshipinfo {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 25px;
+}
+
+#mbshipinfo img {
+    width: 150px;
+}
+#mbshipinfo hr {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    border: solid 1px;
+    border-top: 0;
+}
+
+#mbshipinfo ul {
+    text-align: center;
+}
+
+#mbshipinfo li {
+    position: relative;
+    display: inline-block;
+    left: 15px;
+    width: 280px;
+    height: 460px;
+    margin: 5px;
+    border: solid 1px #e7e7e7;
+    border-top: 5px solid#0f4c81;
+}
+#mbshipinfo li:hover {
+    background-color: #e7e7e7;
+}
+#mbshipinfo li p {
+    margin-top: 15px;
+}
+#mbshipinfo li span {
+    margin: 0 auto;
+    display: block;
+    color: #e7e7e7;
+    background-color: #0f4c81;
+    border-radius: 9px;
+    width: 100px;
+}

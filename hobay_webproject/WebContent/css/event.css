@@ -1,0 +1,16 @@
+#eventmain {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+#eventmain img {
+    width: 100%;
+}
+#mainbottom {
+    text-align: center;
+    padding: 25px 0;
+}
+#mainbottom .listyle {
+    padding: 10px 0;
+}
